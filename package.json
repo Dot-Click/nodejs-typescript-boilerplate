@@ -1,0 +1,49 @@
+{
+  "name": "time2cleann-be",
+  "version": "1.0.0",
+  "description": "time2cleann backend",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.ts",
+    "start": "node ./src/index.ts",
+    "swagger": "node ./swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dot-Click/time2cleann-be.git"
+  },
+  "author": "DotClick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dot-Click/time2cleann-be/issues"
+  },
+  "homepage": "https://github.com/Dot-Click/time2cleann-be#readme",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.3",
+    "@types/cors": "^2.8.14",
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/swagger-ui-express": "^4.1.3",
+    "@types/validator": "^13.11.1",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "nodemailer": "^6.9.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "winston": "^3.10.0"
+  }
+}
